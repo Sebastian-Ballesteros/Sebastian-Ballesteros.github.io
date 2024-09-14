@@ -73,3 +73,53 @@ footer {
 #contact a.btn-link i:hover {
   color: #0056b3; /* Change color on hover */
 }
+
+
+/* General styling for mobile screens (iPhone) */
+@media (max-width: 767px) {
+  body {
+    padding-top: 60px; /* Reduce padding for smaller screens */
+  }
+
+  .jumbotron {
+    padding: 1rem;
+    font-size: 16px;
+    background-position: center;
+  }
+
+  .jumbotron img {
+    width: 120px; /* Smaller profile image for mobile */
+  }
+
+  .jumbotron h1 {
+    font-size: 1.5rem; /* Smaller font for mobile */
+  }
+
+  .jumbotron p.lead {
+    font-size: 1rem; /* Adjust text size */
+  }
+
+  /* Adjust navbar spacing and font-size for mobile */
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    margin-bottom: 1.5rem; /* Reduce margin between cards */
+  }
+
+  /* Adjust button and icon sizes */
+  .btn-link i {
+    font-size: 1.5rem; /* Make icons smaller on mobile */
+  }
+
+  /* Make the text areas and input fields more mobile-friendly */
+  textarea {
+    font-size: 1rem;
+  }
+
+  /* Footer adjustments */
+  footer p {
+    font-size: 0.9rem;
+  }
+}
