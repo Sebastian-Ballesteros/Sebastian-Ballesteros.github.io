@@ -15,6 +15,12 @@ body {
   border: none;
 }
 
+section {
+  padding-top: 80px; /* Adjust this value based on your navbar height */
+  margin-top: -80px; /* Negative value of padding-top */
+}
+
+
 h2 {
   margin-top: 40px;
 }
