@@ -3,7 +3,7 @@
 const courses = [
     {
       name: "Mathematics for Economists",
-      keywords: ["mathematics", "economics", "calculus", "linear algebra", "optimization"],
+      keywords: ["math", "mathematics", "economics", "calculus", "linear algebra", "optimization"],
     },
     {
       name: "Foundations of Microeconomics",
@@ -23,11 +23,11 @@ const courses = [
     },
     {
       name: "Programming for Economists I",
-      keywords: ["programming", "python", "coding", "data analysis", "economics applications"],
+      keywords: ["r", "programming", "python", "coding", "data analysis", "economics applications", "Machine Learning", "ML"],
     },
     {
       name: "Probability & Statistics",
-      keywords: ["probability", "statistics", "data analysis", "statistical inference", "econometrics", "R", "Python"],
+      keywords: ["probability", "statistics", "data analysis", "statistical inference", "econometrics", "r", "Python"],
     },
     {
       name: "Development and Growth Economics",
@@ -35,7 +35,7 @@ const courses = [
     },
     {
       name: "Game Theory",
-      keywords: ["game theory", "strategic interaction", "Nash equilibrium", "economics", "decision-making"],
+      keywords: ["game theory", "strategic interaction", "Nash equilibrium", "economics", "decision-making", "problem solving"],
     },
     {
       name: "International Trade and Monetary System",
