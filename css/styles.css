@@ -1,5 +1,5 @@
 body {
-  padding-top: 70px; /* Offset for the fixed navbar */
+  padding-top: 30px; /* Offset for the fixed navbar */
 }
 
 .jumbotron {
@@ -54,11 +54,9 @@ footer {
   color: #d3d3d3 !important;
 }
 
-/* Add to your styles.css */
-
 #contact i {
   margin-right: 8px;
-  color: #007bff; /* Optional: Adjust icon color */
+  color: #007bff; 
 }
 
 #contact a.btn-link {
