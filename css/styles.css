@@ -1,5 +1,5 @@
 body {
-  padding-top: 30px; /* Offset for the fixed navbar */
+  padding-top: 60px; /* Offset for the fixed navbar */
 }
 
 .jumbotron {
@@ -42,6 +42,10 @@ footer {
   border: none;
 }
 
+.list-group-item i {
+  margin-right: 10px;
+}
+
 .navbar-brand {
   font-weight: bold;
 }
@@ -64,13 +68,17 @@ footer {
 }
 
 #contact a.btn-link i {
-  color: #333; /* Default icon color for GitHub and LinkedIn */
+  color: #fff; /* Default icon color for GitHub and LinkedIn */
 }
 
 #contact a.btn-link i:hover {
-  color: #0056b3; /* Change color on hover */
+  color: #d3d3d3; /* Change color on hover */
 }
 
+.interests {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
 
 /* General styling for mobile screens */
 @media (max-width: 767px) {
